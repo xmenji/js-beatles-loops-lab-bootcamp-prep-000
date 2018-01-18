@@ -6,3 +6,11 @@ function theBeatlesPlay(musicians, instruments){
   }
   return theBand;
 }
+
+function johnLennonFacts(facts){
+  var n = 0;
+  while(n < facts.length){
+    facts[n] = facts[n] + "!!!";
+    n++;
+  }
+}
